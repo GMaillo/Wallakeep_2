@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login component test Login render should render correctly 1`] = `
+<div
+  className="container login"
+>
+  <h1>
+    Login
+  </h1>
+  <Form
+    className="mt-4"
+    onSubmit={[Function]}
+  >
+    <div
+      className="form-group"
+    >
+      <label
+        htmlFor="firstname"
+      >
+        Nombre
+      </label>
+      <Input
+        className="form-control"
+        name="firstname"
+        required={true}
+        type="text"
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        htmlFor="surname"
+      >
+        Apellidos
+      </label>
+      <Input
+        className="form-control"
+        name="surname"
+        required="required"
+        type="text"
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        htmlFor="tags"
+      />
+      <Tags
+        onTagSelected={[Function]}
+        required={true}
+      />
+    </div>
+    <button
+      className="btn"
+      type="submit"
+    >
+      Login
+    </button>
+  </Form>
+</div>
+`;

@@ -1,0 +1,11 @@
+.advert {
+    display: flex;
+    flex-flow: column;
+    height: 85vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit {
+    color:black;
+}

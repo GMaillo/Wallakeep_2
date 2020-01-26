@@ -1,0 +1,1 @@
+export const isUserLogged = user => ( Object.entries(user).length > 0 );

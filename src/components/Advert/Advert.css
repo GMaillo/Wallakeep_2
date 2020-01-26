@@ -1,0 +1,45 @@
+.price {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: .4rem;
+    color:black;
+}
+
+.type-badge {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;    
+    border-radius: 10px;
+    padding: .2rem;
+}
+
+.pointer .card-img-top {
+    height: 250px;
+}
+
+.type-badge-buy {
+    background-color: rgb(110, 183, 231);
+    color: black;
+}
+
+.type-badge-sell {
+    color: black;
+    background-color: rgb(212, 116, 52);
+}
+
+.tag-lifestyle {
+    background-color: rgb(150, 194, 241);
+}
+
+.tag-work {
+    background-color: rgb(212, 243, 156);
+}
+
+.tag-mobile {
+    background-color:rgb(238, 191, 64);
+}
+
+.tag-motor {
+    background-color: rgb(243, 149, 159);
+}

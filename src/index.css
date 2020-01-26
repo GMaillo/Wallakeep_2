@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: -apple-system, "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#main {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.mt-4 {
+  margin-top: 4rem!important;
+}

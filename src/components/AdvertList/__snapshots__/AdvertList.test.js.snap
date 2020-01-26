@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdvertList component test should render correctly 1`] = `
+<div>
+  <div
+    className="adverts-container"
+  >
+    <withRouter(Advert)
+      advert={
+        Object {
+          "createdAt": "2019-10-21T15:26:08.224Z",
+          "description": "Vendo XBOX One X como nueva. No tengo tiempo para jugar",
+          "id": "5db5c80cb00acc1d9437de43",
+          "name": "XBOX OneX",
+          "photo": "http://localhost:3001/images/anuncios/xbox.jpg",
+          "price": 35.6,
+          "tags": Array [
+            "lifestyle",
+          ],
+          "type": "sell",
+        }
+      }
+      key="5db5c80cb00acc1d9437de43"
+    />
+  </div>
+</div>
+`;
